@@ -1,0 +1,49 @@
+This is TeX, Version 3.1415926 (TeX Live 2009/Debian) (format=tex 2012.10.30)  6 NOV 2012 12:12
+**\n
+
+*
+! Interruption.
+<*> 
+    
+? 
+(Please type a command or say `\end')
+*exut
+
+*exit
+
+*\en
+! Interruption.
+<*> 
+    \en
+? d
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, 
+H for help, X to quit.
+? \end
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, 
+H for help, X to quit.
+? \end
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, 
+H for help, X to quit.
+? 
+! Undefined control sequence.
+<*> \en
+       
+? 
+
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*\end
+[1]
+Output written on texput.dvi (1 page, 220 bytes).
