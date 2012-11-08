@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model1" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+    <EntitySet Name="DbLogs" EntityType="Model1.DbLog" />
+  </EntityContainer>
+  <EntityType Name="DbLog">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="jobId" Nullable="false" />
+    <Property Type="DateTime" Name="timeStamp" Nullable="false" />
+    <Property Type="String" Name="jobState" Nullable="false" />
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Type="String" Name="user" Nullable="false" />
+  </EntityType>
+</Schema>

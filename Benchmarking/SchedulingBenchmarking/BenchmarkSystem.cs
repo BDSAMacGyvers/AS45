@@ -44,7 +44,7 @@ namespace SchedulingBenchmarking
 
             // get the logger to subscribe to BenchmarkSystem
             system.StateChanged += Logger.OnStateChanged;
-            /*
+            
             Job job1 = new Job((string[] arg) => { foreach (string s in arg) { Console.Out.WriteLine(s); } return ""; }, new Owner("owner1"), 2, 45);
             Job job2 = new Job((string[] arg) => { foreach (string s in arg) { Console.Out.WriteLine(s); } return ""; }, new Owner("owner2"), 2, 3);
             Job job3 = new Job((string[] arg) => { foreach (string s in arg) { Console.Out.WriteLine(s); } return ""; }, new Owner("owner3"), 2, 200);
@@ -70,15 +70,15 @@ namespace SchedulingBenchmarking
             system.Submit(job11);
             system.Submit(job12);
             
-            Job job1 = new Job((string[] arg) => { foreach (string s in arg) { Console.Out.WriteLine(s); } return ""; }, new Owner("owner1"), 2, 30000);
-            Job job2 = new Job((string[] arg) => { foreach (string s in arg) { Console.Out.WriteLine(s); } return ""; }, new Owner("owner2"), 2, 3);
+            //Job job1 = new Job((string[] arg) => { foreach (string s in arg) { Console.Out.WriteLine(s); } return ""; }, new Owner("owner1"), 2, 30000);
+            //Job job2 = new Job((string[] arg) => { foreach (string s in arg) { Console.Out.WriteLine(s); } return ""; }, new Owner("owner2"), 2, 3);
             system.Submit(job1);
             system.Submit(job2);
-            */
             
-            //Simulator sim = new Simulator(system.scheduler);
+            
+            Simulator sim = new Simulator(system.scheduler);
 
-            //Task.Factory.StartNew(()=>sim.run());
+            Task.Factory.StartNew(()=>sim.run());
 
             system.ExecuteAll();           
 

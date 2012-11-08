@@ -1,0 +1,10 @@
+C:\Users\Ellen\Documents\Visual Studio 2012\Projects\BDSA\AS45\Benchmarking\SchedulingBenchmarking\bin\Debug\SchedulingBenchmarking.exe.config
+C:\Users\Ellen\Documents\Visual Studio 2012\Projects\BDSA\AS45\Benchmarking\SchedulingBenchmarking\bin\Debug\Model1.Context.cs
+C:\Users\Ellen\Documents\Visual Studio 2012\Projects\BDSA\AS45\Benchmarking\SchedulingBenchmarking\bin\Debug\Model1.Designer.cs
+C:\Users\Ellen\Documents\Visual Studio 2012\Projects\BDSA\AS45\Benchmarking\SchedulingBenchmarking\bin\Debug\Model1.Context.tt
+C:\Users\Ellen\Documents\Visual Studio 2012\Projects\BDSA\AS45\Benchmarking\SchedulingBenchmarking\bin\Debug\SchedulingBenchmarking.exe
+C:\Users\Ellen\Documents\Visual Studio 2012\Projects\BDSA\AS45\Benchmarking\SchedulingBenchmarking\bin\Debug\SchedulingBenchmarking.pdb
+C:\Users\Ellen\Documents\Visual Studio 2012\Projects\BDSA\AS45\Benchmarking\SchedulingBenchmarking\bin\Debug\EntityFramework.dll
+C:\Users\Ellen\Documents\Visual Studio 2012\Projects\BDSA\AS45\Benchmarking\SchedulingBenchmarking\obj\Debug\SchedulingBenchmarking.csprojResolveAssemblyReference.cache
+C:\Users\Ellen\Documents\Visual Studio 2012\Projects\BDSA\AS45\Benchmarking\SchedulingBenchmarking\obj\Debug\SchedulingBenchmarking.exe
+C:\Users\Ellen\Documents\Visual Studio 2012\Projects\BDSA\AS45\Benchmarking\SchedulingBenchmarking\obj\Debug\SchedulingBenchmarking.pdb
